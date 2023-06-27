@@ -2,6 +2,14 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+/* For this solution I didn't use justify-content: space-between on the whole container
+and tried to apply to the individual div on the left side. Only created one div instead
+of one for each sides, so that it would be easy to apply same gaps and alignments.
+Solution should've started with me splitting elements into classes for each side
+then applying display: flex, alignment and gap. Utilize space-between for consitant space
+between divs. */
+
+
 body {
   margin: 0;
   background: #eee;
@@ -61,3 +69,5 @@ ul {
   padding: 0;
   gap: 16px;
 }
+
+
