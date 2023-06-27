@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+/* Should use justify content more often instead of trying to use margin left/right for aligning. Revisit where to include display flex and
+not spam it in every single class.  */
+
 html,
 body {
   height: 100%;
